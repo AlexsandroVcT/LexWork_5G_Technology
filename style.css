@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.layout-5G{
+    display: flex;
+    width: 100%;
+}
+
+.logo-5G{
+    display: flex;
+    width: 6vh;
+    border-radius: 50%;
+    margin: 6px;
+    padding: 3px;
+    float: left;
+}
+
+#menu-5G ul{
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    background-color: #1E90FF;
+}
+#menu-5G ul li{
+    display: inline;
+}
+#menu-5G ul li a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-5G ul li a:hover {
+    background-color:  #00BFFF;
+    
+}
+
